@@ -20,12 +20,12 @@ for i in range(400):
         print(i,j)
 
         
-       # EdgeFile = "./data/Edge"+"_"+str(i)+"_"+str(j)+".csv"
-       # os.rename("./data/Edge.csv", EdgeFile)
-       # TempFile = "./data/Temperature"+"_"+str(i)+"_"+str(j)+".csv"
-       # os.rename("./data/Temperature.csv", TempFile)
-       # PowerFile = "./data/Power"+"_"+str(i)+"_"+str(j)+".csv"
-       # os.rename("./data/Power.csv", PowerFile)
+       EdgeFile = "./data/Edge"+"_"+str(i)+"_"+str(j)+".csv"
+       os.rename("./data/Edge.csv", EdgeFile)
+       TempFile = "./data/Temperature"+"_"+str(i)+"_"+str(j)+".csv"
+       os.rename("./data/Temperature.csv", TempFile)
+       PowerFile = "./data/Power"+"_"+str(i)+"_"+str(j)+".csv"
+       os.rename("./data/Power.csv", PowerFile)
 
 
     os.rename("Chiplet_Core.flp", ChipletCoreFile)
