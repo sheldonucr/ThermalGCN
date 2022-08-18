@@ -18,8 +18,9 @@ ThermalGCN requires Pytorch and DGL to be installed as backend.
 
 - Obtain dataset:
 
-  python run.py
-  python data_preprocess.py
+  python run.py to run hotspot and generate data which is store into "./data/".
+  
+  python data_preprocess.py to normalize the data.
 
 - Training GCN:
 
