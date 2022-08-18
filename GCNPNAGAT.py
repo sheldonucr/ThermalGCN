@@ -13,8 +13,8 @@ from numpy import genfromtxt
 import csv
 from shutil import copyfile
 
-dataset_dir = './dataPNAGAT/'
-results_dir = './dataPNAGAT/'
+dataset_dir = './dataset/data/'
+results_dir = './dataset/dataresults/'
 
 
 
