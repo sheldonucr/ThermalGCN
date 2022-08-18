@@ -14,6 +14,8 @@ ThermalGCN requires Pytorch and DGL to be installed as backend.
 ## Instructions
 - Random chiplet layout generation:
   
+  cd ./dataset/
+  
   python Generate.py
 
 - Obtain dataset:
